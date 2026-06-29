@@ -4,12 +4,14 @@
 <meta charset="UTF-8">
 <title>Lebenslauf Olena Tsvietkova</title>
 <style>
-    body { font-family: Arial, sans-serif; line-height: 1.25; color: #000000; margin: 20px; }
+    body { font-family: Arial, sans-serif; line-height: 1.4; color: #2d3748; margin: 20px; }
     h1 { color: #1a365d; font-size: 24px; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
-    h2 { color: #2b6cb0; font-size: 14px; margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #e2e8f0; padding-bottom: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+    h2 { color: #2b6cb0; font-size: 14px; margin-top: 22px; margin-bottom: 10px; border-bottom: 1px solid #e2e8f0; padding-bottom: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
     p { margin: 0 0 10px 0; font-size: 12px; }
     .contact-info { font-size: 11px; color: #4a5568; margin-bottom: 15px; }
-    .profile-text { font-style: italic; margin-bottom: 15px; font-size: 12px; }
+    .contact-info a { color: #2b6cb0; text-decoration: none; }
+    .contact-info a:hover { text-decoration: underline; }
+    .profile-text { font-style: italic; margin-bottom: 15px; font-size: 12px; text-align: justify; }
     table { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 12px; }
     td { padding: 4px 0; vertical-align: top; }
     .date-col { width: 18%; font-weight: bold; color: #4a5568; }
@@ -20,18 +22,26 @@
     li { margin-bottom: 3px; }
     .skills-table td { padding: 6px 10px 6px 0; border-bottom: 1px solid #f7fafc; }
     .skills-cat { font-weight: bold; width: 25%; color: #2b6cb0; }
+    
+    @media print {
+        tr { page-break-inside: avoid; }
+        body { margin: 10mm; }
+    }
 </style>
 </head>
 <body>
 
 <h1>Olena Tsvietkova</h1>
 <div class="contact-info">
-    Thomas-Mann-Str. 16, 60439 Frankfurt am Main &nbsp;|&nbsp; Tel: +49 163 7907272 &nbsp;|&nbsp; E-Mail: [Deine E-Mail] &nbsp;|&nbsp; LinkedIn: [Dein Link]
+    Thomas-Mann-Str. 1, 60439 Frankfurt am Main &nbsp;|&nbsp; 
+    Tel: +49 163 7907272 &nbsp;|&nbsp; 
+    E-Mail: <a href="mailto:olenatsvietkova@yahoo.de">olenatsvietkova@yahoo.de</a> &nbsp;|&nbsp; 
+    LinkedIn: <a href="https://www.linkedin.com/in/olena-tsvietkova-business-trifft-ai" target="_blank">linkedin.com/in/olena-tsvietkova-business-trifft-ai</a>
 </div>
 
 <h2>Profil</h2>
 <p class="profile-text">
-    Informatikstudentin (B.Sc.) mit fundierter praktischer Erfahrung in der Entwicklung moderner KI-Architekturen. Spezialisiert auf Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) und agentische KI-Systeme sowie datenbasierte Analysen (Python, R). Zielstrebig, analytisch denkend und zweisprachig auf C2-Niveau (Deutsch/Englisch).
+    Informatikstudentin mit erfolgreichem Erststudium (B.Sc.) in Rechnungswesen und Audit sowie fundierter Praxis-Erfahrung in der Entwicklung moderner KI-Architekturen. Spezialisiert auf Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) und agentische Systeme sowie datenbasierte Analysen (Python, R, Power BI, Excel). Zielstrebig, analytisch denkend und verhandlungssicher in Deutsch und Englisch (C2). Ich verbinde tiefes betriebswirtschaftliches Prozesswissen mit modernster KI-Technologie.
 </p>
 
 <h2>Technische Fähigkeiten</h2>
@@ -115,7 +125,7 @@
         <td class="content-col">
             <span class="job-title">Studium Rechnungswesen und Audit</span><br>
             <span class="company">Nationale Agraruniversität Luhansk, Ukraine</span><br>
-            <span style="font-size: 11px; color: #4a5568;">Abschluss in Deutschland als Hochschulzugangsberechtigung (HZB) anerkannt.</span>
+            <span style="font-size: 11px; color: #4a5568;">Äquivalent zum Bachelor-Studium (ZAB-Bewertung liegt vor)</span>
         </td>
     </tr>
 </table>
